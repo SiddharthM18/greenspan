@@ -1,0 +1,47 @@
+.container {
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar {
+    background: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    --transition-speed: 400ms;
+}
+
+.navlinks {
+    margin: 2rem;
+    text-decoration: none;
+    color: maroon;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+}
+
+.navitem {
+    padding: 2rem;
+    text-decoration: none;
+    display: inline;
+}
+
+.navitem:hover {
+   transition: var(--transition-speed);
+   background-color: rgb(48,47,47);
+   color: white;
+}
+
+.navtitle {
+    color: maroon;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.navtitle:hover {
+    transition: var(--transition-speed);
+    color: gold;
+}
