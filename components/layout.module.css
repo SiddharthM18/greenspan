@@ -13,6 +13,7 @@
     align-items: center;
     padding: 0rem;
     --transition-speed: 400ms;
+    font-family: 'Sora-Bold';
 }
 
 .navlinks {
@@ -29,10 +30,12 @@
     display: inline;
 }
 
-.navitem:hover {
-   transition: var(--transition-speed);
+.navitem:hover,
+.navitem:focus,
+.navitem:active {
    background-color: rgb(48,47,47);
    color: white;
+   transition: var(--transition-speed);
 }
 
 .navtitle {

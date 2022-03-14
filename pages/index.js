@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
@@ -48,10 +47,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className={utilStyles.footer}>
-        <h3>Max De Leon | Siddharth Mehta</h3>
-      </footer>
     </Layout>
   )
 }

@@ -1,6 +1,5 @@
 import Link from 'next/Link';
 import Head from 'next/Head';
-import Image from 'next/Image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 
@@ -39,6 +38,9 @@ export default function Layout({children, home}) {
 
                         </>
                     )}
+                <footer className={utilStyles.footer}>
+                    <h3>Max De Leon | Siddharth Mehta</h3>
+                </footer>
             </div>
         </div>
     );
