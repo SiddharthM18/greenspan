@@ -1,25 +1,25 @@
 .container {
     padding: 0 1rem;
-    margin: 2rem auto 4rem;
+    margin: 1rem auto 2rem;
     text-align: center;
     align-items: center;
 }
 
 .navbar {
-    background: white;
+    /*background: white;*/
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem;
     --transition-speed: 400ms;
     font-family: 'Sora-Bold';
 }
 
 .navlinks {
     margin: 2rem;
+    margin-top: 2.5rem;
     text-decoration: none;
-    color: maroon;
+    color: white;
     grid-template-columns: repeat(4, auto);
     list-style: none;
 }
@@ -33,18 +33,19 @@
 .navitem:hover,
 .navitem:focus,
 .navitem:active {
-   background-color: rgb(48,47,47);
-   color: white;
-   transition: var(--transition-speed);
+   border-radius: 10px;
+   text-decoration: underline;
+   transition: 1000ms;
 }
 
 .navtitle {
-    color: maroon;
+    color: gold;
     padding: 1rem;
     margin: 1rem;
+    margin-top: 1.5rem;
 }
 
 .navtitle:hover {
     transition: var(--transition-speed);
-    color: gold;
+    color: maroon;
 }

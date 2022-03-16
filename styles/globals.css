@@ -12,9 +12,12 @@ html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
   font-family: 'Sora';
   color: white;
-  background-color: rgb(48, 47, 47);
+  background-image: url('/images/background2.jpeg');
+  background-position: center;
+  background-size: cover;
 }
 
 a {
