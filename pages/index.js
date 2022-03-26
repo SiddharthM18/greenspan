@@ -34,11 +34,18 @@ export default function Home() {
 
           <div className={utilStyles.card}>
             <Link href={'/tools/requests'}>
+              <h2>Risk &rarr;</h2>
+            </Link>
+            <p>Risk risk management and portfolio analysis tools and metrics</p>
+          </div>
+
+          <div className={utilStyles.card}>
+            <Link href={'/tools/requests'}>
               <h2>Requests &rarr;</h2>
             </Link>
             <p>Request a tool/feature for approval and implementation</p>
-          </div>
-
+          </div> 
+          
           <div className={utilStyles.card}>
             <Link href={'/tools/devops'}>
               <h2>DevOps &rarr;</h2>

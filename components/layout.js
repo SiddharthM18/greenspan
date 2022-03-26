@@ -13,6 +13,7 @@ export default function Layout({children, home}) {
                 <ul className={styles.navlinks}>
                     <li className={styles.navitem}><Link href={'../tools/charting'}>Charting</Link></li>
                     <li className={styles.navitem}><Link href={'../tools/analysis'}>Analysis</Link></li>
+                    <li className={styles.navitem}><Link href={'../tools/risk'}>Risk</Link></li>
                     <li className={styles.navitem}><Link href={'../tools/requests'}>Requests</Link></li>
                     <li className={styles.navitem}><Link href={'../tools/devops'}>DevOps</Link></li>
                 </ul>
