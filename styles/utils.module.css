@@ -53,6 +53,17 @@
     font-size: 1.5rem;
 }
 
+.chart_container {
+    padding: 0 1rem;
+    margin: 1rem auto 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.chartimage {
+    background: none;
+}
+
 .code {
     background: #fafafa;
     border-radius: 5px;
